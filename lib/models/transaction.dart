@@ -7,9 +7,9 @@ class Transaction {
   final DateTime date;
 
   Transaction({
-    @requiered this.id,
-    @requiered this.title,
-    @requiered this.value,
-    @requiered this.date,
+    @required this.id,
+    @required this.title,
+    @required this.value,
+    @required this.date,
   });
 }
