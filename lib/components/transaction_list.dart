@@ -8,7 +8,7 @@ class TransactionList extends StatelessWidget {
   TransactionList(this.transactions);
 
   @override
-  Widget build(BuildContext contet) {
+  Widget build(BuildContext context) {
     return Container(
         height: 300,
         child: ListView.builder(
@@ -25,7 +25,7 @@ class TransactionList extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Colors.purple,
+                        color: Theme.of(context).primaryColor,
                         width: 2,
                       ),
                     ),
